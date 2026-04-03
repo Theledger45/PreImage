@@ -1,0 +1,60 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  background: #f6f8fb;
+  color: #10203a;
+}
+
+.page {
+  max-width: 760px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+}
+
+.story-shell {
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(11, 30, 70, 0.08);
+  overflow: hidden;
+}
+
+.story-header {
+  padding: 1.5rem 1.5rem 1rem;
+  border-bottom: 1px solid #e7edf5;
+}
+
+.kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #1f5eff;
+  margin: 0;
+}
+
+.dek {
+  color: #50627f;
+  margin-bottom: 0;
+}
+
+.story-body {
+  padding: 1.5rem;
+}
+
+.story-section + .story-section {
+  margin-top: 1.5rem;
+}
+
+.story-section h2 {
+  margin-bottom: 0.5rem;
+}
+
+.story-section p {
+  margin-top: 0.35rem;
+  margin-bottom: 0;
+}

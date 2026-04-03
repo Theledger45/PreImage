@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PreImage Remaining Demos</title>
+    <link rel="stylesheet" href="./lib/styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div id="remaining"></div>
+    </div>
+    <script type="module">
+      import { mount } from './lib/dom.js';
+      import { buildCatalogDemo, catalogSeed } from './lib/catalogDemo.js';
+
+      mount('#remaining', buildCatalogDemo(catalogSeed));
+    </script>
+  </body>
+</html>
