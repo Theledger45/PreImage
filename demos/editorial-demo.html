@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PreImage Editorial Demo</title>
+    <link rel="stylesheet" href="./lib/styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div id="app"></div>
+    </div>
+    <script type="module">
+      import { mount } from './lib/dom.js';
+      import { buildEditorialDemo, editorialSeed } from './lib/editorialDemo.js';
+
+      const story = buildEditorialDemo(editorialSeed);
+      mount('#app', story);
+    </script>
+  </body>
+</html>
